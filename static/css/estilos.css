@@ -1,0 +1,160 @@
+body{
+    background-color: #141414 ;
+    font-family:'Segoe UI';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+
+header{
+    display: flex;
+    padding:20px;
+    background-color: #0b0b0b;
+    height: 50px;
+    align-items: center;
+}
+
+
+nav{
+    display: inline-block;
+}
+
+
+
+.logo{
+    width:  200px;
+    height: 50px;
+    margin: 20px;
+}
+
+.menu{
+    flex: 1 1 auto;
+    text-align: right;
+    padding: 20px;
+
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    font-family: 'Segoe UI';
+    
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: #FF9A00;
+}
+
+/** FOTO PRINCIPAL **/
+
+section.destaque{
+    background-image: url(../img/14.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100X;
+    min-height: 650px;
+}
+
+/** linha de filmes **/
+img{
+    display: block;
+    width: 100%;
+    
+
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10000px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 200px;
+    margin-bottom: 20px;
+}
+
+.flex > div > a> img.filmeImg{
+    width:  630px; 
+    height: 354px;
+}
+
+h1{
+    text-align: left;
+    font-family:'Segoe UI';
+    font-size: 30px;
+    color: #FF9A00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#filtro{
+    cursor: pointer;    
+    background:#ff9a00;
+    color: black;
+    font-family:'Segoe UI';
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    border-style:ridge;
+    text-align-last: center;
+    
+}
+
+
+/*pagina dos filmes*/
+
+.flex > div > iframe{
+    width:  1088px;
+    height: 612px;
+    margin:0 auto;
+    display: block;
+    align-self: center;
+}
+
+h2{
+    text-align: left;
+    font-family:'Segoe UI';
+    font-size: 30px;
+    color: #FF9A00;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+h3{
+    text-align: left;
+    font-family:'Segoe UI';
+    font-size: 20px;
+    color: #0b0b0b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+#h3Sinopse{
+    background-color: #fd9800;
+}
+
+div.sinopse{
+    background-color: #0b0b0b;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#sinopse{
+    font:Segoe UI;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 20px;
+    color:#ffff;  
+}
+

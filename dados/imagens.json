@@ -1,0 +1,77 @@
+[
+    {
+        "id": "theMartian",
+        "class":"fiction",
+        "foto":"2.png",
+        "caminho":"filmePagina/theMartian.html"
+    },
+    {
+        "id": "dune",
+        "class":"action",
+        "foto":"9.jpg",
+        "caminho":"filmePagina/dune.html"
+    },
+    {
+        "id": "bladeRunner",
+        "class":"action",
+        "foto":"6.jpg",
+        "caminho":"/bladeRunner"
+
+    },
+    {
+        "id": "theBatman",
+        "class":"aventura",
+        "foto":"10.jpg",
+        "caminho": "filmePagina/theBatman.html"
+    },
+    {
+        "id": "transformers",
+        "class":"aventura",
+        "foto":"11.jpg",
+        "caminho":"filmePagina/transformers.html"
+    },
+    {
+        "id": "joker",
+        "class": "aventura",
+        "foto":"5.jpg",
+        "caminho": "filmePagina/joker.html"
+    
+    },
+    {
+        "id": "godzillaKong",
+        "class":"action",
+        "foto":"12.jpeg",
+        "caminho":"filmePagina/godzillaKong.html"
+
+    },
+    {
+        "id": "tenet",
+        "class":"fiction",
+        "foto":"4.jpg",
+        "caminho":"filmePagina/tenet.html"
+    },
+    {
+        "id":"interstelar",
+        "class":"fiction",
+        "foto":"7.jpg",
+        "caminho":"filmePagina/interstellar.html"
+    },
+    {
+        "id": "venom",
+        "class":"aventura",
+        "foto":"15.jpg",
+        "caminho":"filmePagina/venom.html"
+    },
+    {
+        "id": "spiderman",
+        "class":"aventura",
+        "foto":"13.jpg",
+        "caminho":"filmePagina/spiderman.html"
+    },
+    {
+        "id": "inception",
+        "class":"fiction",
+        "foto":"16.jpg",
+        "caminho":"filmePagina/inception.html"
+    }
+]

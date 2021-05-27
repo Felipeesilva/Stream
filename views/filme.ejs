@@ -1,0 +1,17 @@
+
+  <% dadosfilme.forEach(dadosfilmes => { %>
+     <h2><%= dadosfilmes.nome %></h2>
+      <section class="flex">
+        <div id="<%= dadosfilmes.id %>" class="divFilmes">
+          <iframe src="<%= dadosfilmes.link %>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+        <div id="h3Sinopse">
+            <h3>SINOPSE</h3>
+        </div>     
+      <div class="sinopse">
+        <p id="sinopse">
+            <%= dadosfilmes.sinopse %>
+        </p>
+      </div>
+  <% }) %>
